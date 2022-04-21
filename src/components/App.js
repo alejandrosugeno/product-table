@@ -1,9 +1,14 @@
-
+import { ProductsRow } from './ProductsRow';
 import './App.css';
 
 function App() {
   return (
-   <div>hola mundo</div>
+    <>
+     <ProductsRow/>,
+   <ProductsRow/>,
+   <ProductsRow/>
+    </>
+  
   );
 }
 
